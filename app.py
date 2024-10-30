@@ -6,7 +6,6 @@ from keras.layers import Dense, Conv2D, MaxPooling2D, Flatten, BatchNormalizatio
 import numpy as np
 from PIL import Image
 
-# Load the model
 model = Sequential()
 model.add(Conv2D(32, kernel_size=(3, 3), padding='valid', activation='relu', input_shape=(256, 256, 3)))
 model.add(BatchNormalization())
