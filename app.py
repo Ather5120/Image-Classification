@@ -26,7 +26,7 @@ model.add(Dense(1, activation='sigmoid'))
 model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 
 # Load the model weights
-model.load_weights('cats_vs_dogs_weights.h5')
+model.load_weights('cats_vs_dogs_weights.h4')
 
 # Function to preprocess image
 def preprocess_image(image):
